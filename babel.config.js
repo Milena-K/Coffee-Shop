@@ -1,7 +1,6 @@
 module.exports = function (api) {
   return {
     presets: ['@babel/preset-env', '@babel/preset-react'],
-    plugins: ['@babel/plugin-transform-runtime','macros'],
-    cache: true,
+    plugins: ['@babel/plugin-transform-runtime', 'macros'],
   }
 }
