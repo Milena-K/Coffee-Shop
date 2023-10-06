@@ -1,6 +1,6 @@
-module.exports = function (api) {
+odule.exports = function (api) {
+  api.cache(true);
   return {
-    presets: ['@babel/preset-env', '@babel/preset-react'],
-    plugins: ['@babel/plugin-transform-runtime', 'macros'],
+    plugins: ['macros'],
   }
 }
